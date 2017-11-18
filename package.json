@@ -1,7 +1,6 @@
 {
   "name": "weekend-challenge-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,15 @@
     "basic-calculator": "^1.0.5",
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsteffenhagen/weekend-challenge-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsteffenhagen/weekend-challenge-2/issues"
+  },
+  "homepage": "https://github.com/tsteffenhagen/weekend-challenge-2#readme",
+  "description": ""
 }
