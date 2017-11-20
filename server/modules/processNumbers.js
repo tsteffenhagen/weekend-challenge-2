@@ -9,4 +9,5 @@ function numberProcessor (object) {
         return Number(object.numOne) * Number(object.numTwo);
     }
 }
+
 module.exports = numberProcessor;

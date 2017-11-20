@@ -5,15 +5,21 @@ let problem = {
     sum: 0
 }
 let answer = 0;
-
+let screen = 0;
 $(document).ready(function(){
     $('#additionButton').on('click', add);
     $('#subtractionButton').on('click', subtract);
     $('#multiplicationButton').on('click', multiply);
     $('#divisionButton').on('click', divide);
     $('#processButton').on('click', process);
+    $('#num').on('click', display)
+    $('#clearButton').on('click', clear)
     getCalculations();
 });
+
+function display() {
+    screen += $(this).value;
+};
 
 function add() {
     problem.operator = '+';   
@@ -30,6 +36,10 @@ function divide() {
 function multiply() {
     problem.operator = '*';   
 };
+
+function clear () {
+    $('input').val('');
+}
 
 function process() {
     grabber();
